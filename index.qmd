@@ -4,15 +4,15 @@ subtitle: "A guide to communicate data in written and graphical form."
 author: "[Otho Mantegazza](https://www.linkedin.com/in/otho-mantegazza/)"
 editor_options: 
   chunk_output_type: console
----   
+---
 
 # Description 📚
 
-Communication is essential for any kind of scientist. Your research findings might contain the most important results, but if you don’t manage to communicate them to others, they might be like a tree falling in a forest with no one around. Do they make a sound? 
+Communication is essential for any kind of scientist. Your research findings might contain the most important results, but if you don't manage to communicate them to others, they might be like a tree falling in a forest with no one around. Do they make a sound?
 
 A huge part of results today depends on data, and communicating data effectively is a skill made of many components. Representing data graphically is a big part of it.
 
-In this workshop you will learn how to communicate data graphically, and how to use literate programming to make your graphics available to others, together with text and analytical code. 
+In this workshop you will learn how to communicate data graphically, and how to use literate programming to make your graphics available to others, together with text and analytical code.
 
 With [Quarto](https://quarto.org/), a modern literate programming tool dedicated to scientific communication, you will be able to communicate your data in beautifully formatted outputs, which are easy to read, but also reproducible and transparent for the analytical mind.
 
@@ -20,21 +20,21 @@ The workshop will be extensively practical with a focus on hands-on sessions on 
 
 All the software, programming language, and resources used in this workshop are open source and open access. In this way the participants will have full control on the tools that they use and will be able to access them after the class is over, free from unfavorable commercial licenses. All the tools are cutting edge in both industry and academic fields.
 
-All the code and all the material for the workshop will be made available too, under open access and open source licenses. 
+All the code and all the material for the workshop will be made available too, under open access and open source licenses.
 
 # Notes 🖋️
 
-- This workshop is long. It is estimated at  24 hours  (8 hours per 3 days). It can be cut to 2 days:
-  - Removing part 7 on Javascript, which is the least essential for scientists and takes most of the second day.
-  - Moving parts 5 and 6 to the other days.
+-   This workshop is long. It is estimated at 24 hours (8 hours per 3 days). It can be cut to 2 days:
+    -   Removing part 7 on Javascript, which is the least essential for scientists and takes most of the second day.
+    -   Moving parts 5 and 6 to the other days.
 
 # Prerequisites ✅
 
-- Participants should know the very basics of [R](https://www.r-project.org/. For example they should know how to define a variable, how to use the basic data structures and how to run a script. 
+-   Participants should know the very basics of \[R\](https://www.r-project.org/. For example they should know how to define a variable, how to use the basic data structures and how to run a script.
 
-  Otherwise we should add to the workshop an introductory session about R programming, which would last 4h.
-  
-- Participants should know the very basics of descriptive statistics and statistical inference. Otherwise we should add an introductory session on those topics, taking ~4h.
+    Otherwise we should add to the workshop an introductory session about R programming, which would last 4h.
+
+-   Participants should know the very basics of descriptive statistics and statistical inference. Otherwise we should add an introductory session on those topics, taking \~4h.
 
 The workshop is planned for max 15 participants.
 
@@ -42,28 +42,138 @@ The workshop is planned for max 15 participants.
 
 Participants will learn:
 
-- How to gain insights from data through visualization.
-- How to communicate data to others, visually.
-- How to refine data visualization; starting from the cognitive base of how we perceive graphics, and how to apply basic user research, and accessibility checks.
-- How to enhance data visualization with interaction layers.
-- Literate programming: how to weave together analytic code, graphical code and written text into fully reproducible data reports, articles and dashboards.
-- How to publish results online.
-
+-   How to gain insights from data through visualization.
+-   How to communicate data to others, visually.
+-   How to refine data visualization; starting from the cognitive base of how we perceive graphics, and how to apply basic user research, and accessibility checks.
+-   How to enhance data visualization with interaction layers.
+-   Literate programming: how to weave together analytic code, graphical code and written text into fully reproducible data reports, articles and dashboards.
+-   How to publish results online.
 
 # Schedule 🗓️
 
 ## Day 1
 
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| **Part** | **Topic**                    | **Description**                                                                                                                                                         | **Lesson \[h\]** | **Hands-on \[h\]** |
++==========+==============================+=========================================================================================================================================================================+==================+====================+
+| 0        | Welcome                      | Meet and greet                                                                                                                                                          | 0.5              | 0                  |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | Introduction to the workshop.                                                                                                                                           |                  |                    |
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 1        | Tools                        | Introduction to the tools                                                                                                                                               | 0.5              | 0.5                |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   R                                                                                                                                                                   |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Javascript                                                                                                                                                          |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Quarto                                                                                                                                                              |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | Why open source, why using R for data analysis and dataviz, why learning a bit of Javascript helps, what\'s literate programming and why Quarto is a great tool for it. |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | Setup check:                                                                                                                                                            |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Everyone can run R code, and render a Quarto notebook.                                                                                                              |                  |                    |
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 2        | Communicating data visually  | Cognition and why we should communicate data visually.                                                                                                                  | 0.5              | 0                  |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | What is a graph, how to translate your data into graphics.                                                                                                              |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | Introduction to the grammar of graphics and to the basic literature on data visualization.                                                                              |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | Can data visualization be misleading?                                                                                                                                   |                  |                    |
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 3        | GGPLOT2:                     | Learn ggplot2: the implementation of the grammar of graphics in R.                                                                                                      | 1                | 3                  |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          | The grammar of graphics in R | Let\'s code:                                                                                                                                                            |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Aesthetics                                                                                                                                                          |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Geometric objects                                                                                                                                                   |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Facets                                                                                                                                                              |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Statistical transformations                                                                                                                                         |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Position adjustments                                                                                                                                                |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Coordinate Systems                                                                                                                                                  |                  |                    |
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 4        | Better graphs                | How to make better graphs                                                                                                                                               | 0.5              | 0.5                |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Decluttering.                                                                                                                                                       |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | -   Show the data.                                                                                                                                                      |                  |                    |
+|          |                              |                                                                                                                                                                         |                  |                    |
+|          |                              | A huge practical challenge: balancing clarity and complexity. How much information should we include in one graph?                                                      |                  |                    |
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| *tot*    |                              |                                                                                                                                                                         | *3.5*            | *4.5*              |
++----------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+
 ## Day 2
+
++----------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| **Part** | **Topic**                                             | **Description**                                                                                                                                                                                                                                                                       | **Lesson \[h\]** | **Hands-on \[h\]** |
++==========+=======================================================+=======================================================================================================================================================================================================================================================================================+==================+====================+
+| 5        | Graphics for whom?                                    | Cognitively, when we read a data visualization, we are prone to apply \"fast thinking\", meaning that we apply patterns that we have learned previously to new information. This is fast but might be misleading.                                                                     | 1                | 1                  |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | Learning new patterns is burdensome, and people tend to avoid it if they can.                                                                                                                                                                                                         |                  |                    |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | This means that, while some visual graphical model are generally accepted as readable as some as not readable, you should know your audience, and possibly test if they understand the graphical representation that you choose to convey your message, or if they are mislead by it. |                  |                    |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | Let\'s learn about:                                                                                                                                                                                                                                                                   |                  |                    |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | -   Reference search.                                                                                                                                                                                                                                                                 |                  |                    |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | -   User research and user inertia                                                                                                                                                                                                                                                    |                  |                    |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | -   Open questions: how to represent uncertainty                                                                                                                                                                                                                                      |                  |                    |
++----------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 6        | Interaction part 1:  Interactive ggplot2 with ggiraph | When you run out of graphical variables, adding interactions to your graphs is a great way to make it clearer and to convey additional information.                                                                                                                                   | 1                | 1                  |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | You can add interaction to a graph declared in ggplot2 with ggiraph.                                                                                                                                                                                                                  |                  |                    |
++----------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 7        | Interaction part 2: native plots for the web          | An introduction to Javascript, D3 and Observable JS:                                                                                                                                                                                                                                  | 1                | 3                  |
+|          |                                                       |                                                                                                                                                                                                                                                                                       |                  |                    |
+|          |                                                       | Making a graph with low level libraries and how to leverage the potential of the web and of your browser for visualizing data interactively.                                                                                                                                          |                  |                    |
++----------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| *tot*    |                                                       |                                                                                                                                                                                                                                                                                       | *3*              | *5*                |
++----------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
 
 ## Day 3
 
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| **Lession** | **Topic**                                | **Description**                                                                                                                                                                    | **Lesson \[h\]** | **Hands-on \[h\]** |
++=============+==========================================+====================================================================================================================================================================================+==================+====================+
+| 5           | Accessibility                            | What is web accessibility, how does it apply to data visualization.                                                                                                                | 0.5              | 0.5                |
+|             |                                          |                                                                                                                                                                                    |                  |                    |
+|             |                                          | A practical approach to make your graphs more accessible.                                                                                                                          |                  |                    |
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 6           | Reproducibility and Literate programming | Graphs communicate insights immediately. But to provide your readers with context, details, nuances and conclusions, you might want to add tables and written text.                | 0.5              | 0.5                |
+|             |                                          |                                                                                                                                                                                    |                  |                    |
+|             |                                          | Literate programming is a great way to weave together analytic code, graphical code, explanatory text and results.                                                                 |                  |                    |
+|             |                                          |                                                                                                                                                                                    |                  |                    |
+|             |                                          | Being able to connect together all these parts easily, makes your life easier and makes your code more reproducible. This adds reliability to the results that you communicate.    |                  |                    |
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 7           | Literate programming with quarto         | Quarto is a new tool for literate programming finely tuned for scientific publishing.                                                                                              | 1                | 3                  |
+|             |                                          |                                                                                                                                                                                    |                  |                    |
+|             |                                          | \                                                                                                                                                                                  |                  |                    |
+|             |                                          |                                                                                                                                                                                    |                  |                    |
+|             |                                          | You can use it with R, python or ObservableJS code to produce elegant and versatile outputs such as slides, website, and scientific papers  in PDF, epub, or natively for the web. |                  |                    |
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 8           | Deploy your data driven insights.        | Make your work available for everyone on the web with netlify or github pages.                                                                                                     | 0.5              | 0.5                |
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| 9           | Conclusions and goodbyes                 | \                                                                                                                                                                                  | 0.5              | \                  |
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+| *tot*       | *\                                       | *\                                                                                                                                                                                 | *3*              | *4.5*              |
+|             | *                                        | *                                                                                                                                                                                  |                  |                    |
++-------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------------+
+
 # About me ☝️
 
-I am [Otho Mantegazza](https://www.linkedin.com/in/otho-mantegazza/), very nice to meet you. 
+I am [Otho Mantegazza](https://www.linkedin.com/in/otho-mantegazza/), very nice to meet you.
 
 After defending a PhD in plant molecular genetics at the [University of Milan](https://bioscienzebio.unimi.it/), I moved to work in data intensive fields both in the academic and private sectors.
 
-Analyzing and communicating data has always been my passion, and in the last 10 years I’ve built my work around it, in my two postdoc at [CEPLAS](https://www.ceplas.eu/en/home/) and [IRD](https://www.ird.fr/) and where worked on transcriptomics, proteomics and analysis of phenotypical data in R, and later in the private sector at [Accurat](https://accurat.it/), where I specialized in  communicating data visually.
+Analyzing and communicating data has always been my passion, and in the last 10 years I've built my work around it, in my two postdoc at [CEPLAS](https://www.ceplas.eu/en/home/) and [IRD](https://www.ird.fr/) and where worked on transcriptomics, proteomics and analysis of phenotypical data in R, and later in the private sector at [Accurat](https://accurat.it/), where I specialized in communicating data visually.
 
 Supporting the value of open-access, knowledge should be shared with everyone and available for all. This is what I try to achieve with my workshops.
