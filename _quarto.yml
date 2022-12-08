@@ -1,0 +1,24 @@
+project:
+  title: "Data Visualisation for Scientists"
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  preview:
+    port: 4200
+
+
+format:
+  html:
+    theme: default
+    css: style/custom.scss
+    toc: true
+    echo: false
+    
+
+execute:
+  freeze: auto
+
+
+
+

@@ -1,0 +1,1 @@
+- [ ] extension, open session on own data.

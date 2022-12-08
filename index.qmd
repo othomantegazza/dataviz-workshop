@@ -1,0 +1,69 @@
+---
+title: "Let the World Know"
+subtitle: "A guide to communicate data in written and graphical form."
+author: "[Otho Mantegazza](https://www.linkedin.com/in/otho-mantegazza/)"
+editor_options: 
+  chunk_output_type: console
+---   
+
+# Description 📚
+
+Communication is essential for any kind of scientist. Your research findings might contain the most important results, but if you don’t manage to communicate them to others, they might be like a tree falling in a forest with no one around. Do they make a sound? 
+
+A huge part of results today depends on data, and communicating data effectively is a skill made of many components. Representing data graphically is a big part of it.
+
+In this workshop you will learn how to communicate data graphically, and how to use literate programming to make your graphics available to others, together with text and analytical code. 
+
+With [Quarto](https://quarto.org/), a modern literate programming tool dedicated to scientific communication, you will be able to communicate your data in beautifully formatted outputs, which are easy to read, but also reproducible and transparent for the analytical mind.
+
+The workshop will be extensively practical with a focus on hands-on sessions on real-world ecological, phenotypical and epidemiological data.
+
+All the software, programming language, and resources used in this workshop are open source and open access. In this way the participants will have full control on the tools that they use and will be able to access them after the class is over, free from unfavorable commercial licenses. All the tools are cutting edge in both industry and academic fields.
+
+All the code and all the material for the workshop will be made available too, under open access and open source licenses. 
+
+# Notes 🖋️
+
+- This workshop is long. It is estimated at  24 hours  (8 hours per 3 days). It can be cut to 2 days:
+  - Removing part 7 on Javascript, which is the least essential for scientists and takes most of the second day.
+  - Moving parts 5 and 6 to the other days.
+
+# Prerequisites ✅
+
+- Participants should know the very basics of [R](https://www.r-project.org/. For example they should know how to define a variable, how to use the basic data structures and how to run a script. 
+
+  Otherwise we should add to the workshop an introductory session about R programming, which would last 4h.
+  
+- Participants should know the very basics of descriptive statistics and statistical inference. Otherwise we should add an introductory session on those topics, taking ~4h.
+
+The workshop is planned for max 15 participants.
+
+# Goals 🎯
+
+Participants will learn:
+
+- How to gain insights from data through visualization.
+- How to communicate data to others, visually.
+- How to refine data visualization; starting from the cognitive base of how we perceive graphics, and how to apply basic user research, and accessibility checks.
+- How to enhance data visualization with interaction layers.
+- Literate programming: how to weave together analytic code, graphical code and written text into fully reproducible data reports, articles and dashboards.
+- How to publish results online.
+
+
+# Schedule 🗓️
+
+## Day 1
+
+## Day 2
+
+## Day 3
+
+# About me ☝️
+
+I am [Otho Mantegazza](https://www.linkedin.com/in/otho-mantegazza/), very nice to meet you. 
+
+After defending a PhD in plant molecular genetics at the [University of Milan](https://bioscienzebio.unimi.it/), I moved to work in data intensive fields both in the academic and private sectors.
+
+Analyzing and communicating data has always been my passion, and in the last 10 years I’ve built my work around it, in my two postdoc at [CEPLAS](https://www.ceplas.eu/en/home/) and [IRD](https://www.ird.fr/) and where worked on transcriptomics, proteomics and analysis of phenotypical data in R, and later in the private sector at [Accurat](https://accurat.it/), where I specialized in  communicating data visually.
+
+Supporting the value of open-access, knowledge should be shared with everyone and available for all. This is what I try to achieve with my workshops.
