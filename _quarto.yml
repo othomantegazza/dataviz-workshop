@@ -11,7 +11,7 @@ project:
 format:
   html:
     theme: default
-    css: style/custom.scss
+    css: style/custom.css
     toc: true
     echo: false
     
