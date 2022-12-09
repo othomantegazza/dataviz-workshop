@@ -176,4 +176,10 @@ After defending a PhD in plant molecular genetics at the [University of Milan](h
 
 Analyzing and communicating data has always been my passion, and in the last 10 years I've built my work around it, in my two postdoc at [CEPLAS](https://www.ceplas.eu/en/home/) and [IRD](https://www.ird.fr/) and where worked on transcriptomics, proteomics and analysis of phenotypical data in R, and later in the private sector at [Accurat](https://accurat.it/), where I specialized in communicating data visually.
 
-Supporting the value of open-access, knowledge should be shared with everyone and available for all. This is what I try to achieve with my workshops.
+### Working with me
+
+I support the value of open-access. Knowledge should be shared with everyone and available for all. This is what I try to achieve with my workshops.
+
+The material from my previous workshops ([1](https://github.com/othomantegazza/eda-class) and [2](https://othomantegazza.github.io/mawazo-summer-school/)) is openly available for everyone to read, share and adapt.
+
+If you hire me for a workshop you will not only have me in person for teaching, but you will also support my activity, giving me time to produce more open access material, to update it, to review it and to add new topics to it, so that anyone can benefit from it.
