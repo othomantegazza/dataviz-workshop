@@ -27,6 +27,7 @@ All the code and all the material for the workshop will be made available too, u
 -   This workshop is long. It is estimated at 24 hours (8 hours per 3 days). It can be cut to 2 days:
     -   Removing part 7 on Javascript, which is the least essential for scientists and takes most of the second day.
     -   Moving parts 5 and 6 to the other days.
+    -   If you would like, I could add an extra 1-2 days of full-day open office hours, in which I'm available for all workshop participants to help them work on their own data, if they have to write their thesis, write an article, or if they are working on a communication project.
 
 # Prerequisites ✅
 
@@ -180,6 +181,6 @@ Analyzing and communicating data has always been my passion, and in the last 10 
 
 I support the value of open-access. Knowledge should be shared with everyone and available for all. This is what I try to achieve with my workshops.
 
-The material from my previous workshops ([1](https://github.com/othomantegazza/eda-class) and [2](https://othomantegazza.github.io/mawazo-summer-school/)) is openly available for everyone to read, share and adapt.
+The material from previous training that I held (for example: [1](https://github.com/othomantegazza/eda-class) and [2](https://othomantegazza.github.io/mawazo-summer-school/)) is openly available for everyone to read, share and adapt.
 
-If you hire me for a workshop you will not only have me in person for teaching, but you will also support my activity, giving me time to produce more open access material, to update it, to review it and to add new topics to it, so that anyone can benefit from it.
+If you hire me for a workshop you will not only have me in person for teaching for the days of the workshop, but you will also support my activity, giving me time to produce more open access material, to update it, to review it and to add new topics to it, so that anyone can benefit from it, including but not limited to the workshop participants.
