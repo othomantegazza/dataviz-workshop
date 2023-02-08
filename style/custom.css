@@ -1,1 +1,6 @@
+table {
+  -webkit-hyphens: auto; /* for Safari */
+  hyphens: auto;
+  min-width: 600px;
+}
 
