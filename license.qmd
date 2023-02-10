@@ -1,0 +1,5 @@
+# License
+
+This work is licensed by Otho Mantegazza under the CC BY-NC-SA 4.0 license.
+
+The full text of the license can be found at [Creative Common's website](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).

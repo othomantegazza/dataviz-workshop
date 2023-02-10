@@ -3,18 +3,33 @@ project:
   type: website
   output-dir: docs
   render:
-    - index.qmd
+    - "*.qmd"
   preview:
     port: 4200
 
+website:
+  page-footer:
+    left:
+      - text: "Licensed under CC BY-NC-SA 4.0 by Otho Mantegazza"
+        href: license.qmd
+    right:
+      - icon: github
+        href: https://github.com/othomantegazza
+      - icon: linkedin
+        href: https://www.linkedin.com/in/otho-mantegazza/
+      - icon: twitter
+        href: https://twitter.com/othomn
+  sidebar:
+    style: "docked"
+    background: "white"
+    foreground: "black"
+    search: false
 
 format:
   html:
     theme: default
     css: style/custom.css
     toc: true
-    echo: false
-    
 
 execute:
   freeze: auto
